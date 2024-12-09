@@ -701,7 +701,7 @@ namespace iText.Signatures {
         /// the signature container doing the actual signing. Only the
         /// method ExternalSignatureContainer.sign is used
         /// </param>
-        [System.ObsoleteAttribute(@"SignDeferred(iText.Kernel.Pdf.PdfReader, System.String, System.IO.Stream, IExternalSignatureContainer) should be used instead."
+        [System.ObsoleteAttribute(@"SignDeferred(iText.Kernel.Pdf.PdfDocument, System.String, System.IO.Stream, IExternalSignatureContainer) should be used instead."
             )]
         public static void SignDeferred(PdfDocument document, String fieldName, Stream outs, IExternalSignatureContainer
              externalSignatureContainer) {
